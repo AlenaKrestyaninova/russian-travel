@@ -23,7 +23,6 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/intro/__list/_thin/intro__list_thin.css);
 
 /* Раздел photo-grid*/
 @import url(../blocks/photo-grid/photo-grid.css);
