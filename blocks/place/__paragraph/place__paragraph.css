@@ -1,0 +1,27 @@
+.place__paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.63;
+    margin: 0;
+    padding-bottom: 26px;
+}
+
+.place__paragraph:last-child {
+    padding-bottom: 0;
+}
+
+/* Медиа-запрос для ширины 768px*/
+@media screen and (max-width:1023px) {
+    .place__paragraph {
+        font-size: 16px;
+        padding-bottom: 25px;
+    }
+}
+
+/* Медиа-запрос для ширины 320px*/
+@media screen and (max-width:767px) {
+    .place__paragraph {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

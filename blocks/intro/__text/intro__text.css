@@ -1,0 +1,15 @@
+.intro__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.63;
+    padding-top: 40px;
+    margin: 0;
+    max-width: 690px;
+}
+
+/* Медиа-запрос для ширины 768px*/
+@media screen and (max-width:1023px) {
+    .intro__text {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,33 @@
+.cover__title {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+    padding-top: 245px;
+    max-width: 560px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+/* Медиа-запрос для ширины 1024px*/
+@media screen and (max-width:1279px) {
+    .cover__title {
+        padding-top: 195px;
+    }
+}
+
+/* Медиа-запрос для ширины 768px*/
+@media screen and (max-width:1023px) {
+    .cover__title {
+        padding-top: 115px;
+    }
+}
+
+/* Медиа-запрос для ширины 320px*/
+@media screen and (max-width:767px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 1.09;
+        padding-top: 33px;
+        max-width: 288px;
+    }
+}

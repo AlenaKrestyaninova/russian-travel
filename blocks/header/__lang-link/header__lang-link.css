@@ -1,0 +1,8 @@
+.header__lang-link {
+    display: inline;
+    color: #FFFFFF;
+  }
+  
+  .header__lang-link:last-of-type {
+    text-decoration: none;
+  }

@@ -1,0 +1,16 @@
+.place__url-heading {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.7;
+    letter-spacing: 2px;
+    color: #AAAAAA;
+    margin: 0;
+    padding-bottom: 12px;
+}
+
+/* Медиа-запрос для ширины 768px*/
+@media screen and (max-width:1023px) {
+    .place__url-heading {
+        line-height: 1;
+    }
+}

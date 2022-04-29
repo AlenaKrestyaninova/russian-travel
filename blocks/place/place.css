@@ -1,0 +1,34 @@
+.place {
+    display: grid;
+    grid-template-columns: fit-content(460px) 1fr;
+    grid-template-rows: repeat(2, max-content);
+    column-gap: 40px;
+    row-gap: 48px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Медиа-запрос для ширины 1024px*/
+@media screen and (max-width:1279px) {
+    .place {
+        column-gap: 32px;
+        grid-template-columns: fit-content(440px) 1fr;
+    }
+}
+
+/* Медиа-запрос для ширины 768px*/
+@media screen and (max-width:1023px) {
+    .place {
+        column-gap: 28px;
+        grid-template-columns: fit-content(340px) 1fr;
+    }
+}
+
+/* Медиа-запрос для ширины 320px*/
+@media screen and (max-width:767px) {
+    .place {
+        grid-template-columns: 100%;
+        row-gap: 32px;
+    }
+}

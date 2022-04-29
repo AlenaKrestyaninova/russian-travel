@@ -1,0 +1,22 @@
+.intro {
+    margin: auto;
+    padding-top: 92px;
+}
+
+/* Медиа-запрос для ширины 768px*/
+@media screen and (max-width:1023px) {
+    .intro {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 88px;
+    }
+}
+
+/* Медиа-запрос для ширины 320px*/
+@media screen and (max-width:767px) {
+    .intro {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 64px;
+    }
+}
