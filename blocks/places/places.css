@@ -1,6 +1,6 @@
 .places {
     padding-top: 92px;
-    margin: auto ;
+    margin: auto;
     display: grid;
     grid-template-columns: 100%;
     gap: 80px;
