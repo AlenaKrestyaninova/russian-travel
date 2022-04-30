@@ -10,6 +10,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_selected/header__lang-link_selected.css);
 
 /* Раздел lead*/
 @import url(../blocks/lead/lead.css);
@@ -23,11 +24,12 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list/__list-line/intro__list-line.css);
+@import url(../blocks/intro/__list/__list-line/_thin/intro__list-line_thin.css);
 
 /* Раздел photo-grid*/
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
-@import url(../blocks/photo-grid/__image/photo-grid__image.css);
 
 /* Раздел places*/
 @import url(../blocks/places/places.css);
