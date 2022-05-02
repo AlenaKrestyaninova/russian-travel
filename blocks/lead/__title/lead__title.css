@@ -4,7 +4,7 @@
     line-height: 1.04;
     text-align: center;
     margin: auto;
-    width: 720px;
+    max-width: 720px;
 }
 
 /* Медиа-запрос для ширины 320px*/
@@ -12,6 +12,6 @@
     .lead__title {
         font-size: 40px;
         line-height: 1.1;
-        width: 288px;
+        max-width: 288px;
     }
 }

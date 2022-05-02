@@ -4,7 +4,6 @@
   align-items: flex-end;
   padding-top: 28px;
   margin: 0 auto;
-  height: 52px;
 }
 
 /* Медиа-запрос для ширины 1024px*/
@@ -26,7 +25,7 @@
 /* Медиа-запрос для ширины 320px*/
 @media screen and (max-width:767px) {
   .header {
-    height: 42px;
+    padding-top: 28px;
     padding-left: 16px;
     padding-right: 16px;
   }

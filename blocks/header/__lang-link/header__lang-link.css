@@ -1,5 +1,10 @@
 .header__lang-link {
-    display: inline;
     color: #FFFFFF;
     text-decoration: none;
+    transition: opacity .5s ease-in-out;
+    padding-left: 18px;
   }
+
+.header__lang-link:hover {
+    opacity: 0.8;
+}

@@ -3,3 +3,10 @@
     padding-top: 56px;
     margin: 0 auto;
 }
+
+/* Медиа-запрос для ширины 1024px*/
+@media screen and (max-width:1279px) {
+    .lead {
+        padding-top: 48px;
+    }
+}

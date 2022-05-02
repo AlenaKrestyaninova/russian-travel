@@ -15,10 +15,3 @@
         max-width: 100%;
     }
 }
-
-/* Медиа-запрос для ширины 320px*/
-@media screen and (max-width:767px) {
-    .page__section_size_small {
-        max-width: 100%;
-    }
-}

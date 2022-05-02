@@ -6,7 +6,7 @@
     padding-bottom: 64px;
     margin: 0 auto;
     text-align: center;
-    width: 640px;
+    max-width: 640px;
 }
 
 /* Медиа-запрос для ширины 1024px*/
@@ -30,6 +30,6 @@
         line-height: 1.25;
         padding-top: 16px;
         padding-bottom: 40px;
-        width: 288px;
+        max-width: 288px;
     }
 }

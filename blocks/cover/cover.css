@@ -6,16 +6,14 @@
     margin: 0 auto;
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
-    color: #FFFFFF;
-    text-align: center;
-    text-decoration: none;
     position: relative;
-    margin-top: 92px;
 }
 
 .cover:after {
     content: '';
     position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     background-color: #2A2C2F;
@@ -27,12 +25,9 @@
     opacity: 0.8;
 }
 
-
-
 /* Медиа-запрос для ширины 1024px*/
 @media screen and (max-width:1279px) {
     .cover {
-        margin-top: 90px;
         min-height: 640px;
     }
 }
@@ -40,7 +35,6 @@
 /* Медиа-запрос для ширины 768px*/
 @media screen and (max-width:1023px) {
     .cover {
-        margin-top: 90px;
         min-height: 480px;
     }
 }
@@ -48,7 +42,6 @@
 /* Медиа-запрос для ширины 320px*/
 @media screen and (max-width:767px) {
     .cover {
-        margin-top: 66px;
         min-height: 200px;
     }
 }
