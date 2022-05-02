@@ -25,7 +25,7 @@
 /* Медиа-запрос для ширины 320px*/
 @media screen and (max-width:767px) {
   .header {
-    padding-top: 28px;
+    padding-top: 16px;
     padding-left: 16px;
     padding-right: 16px;
   }
