@@ -7,7 +7,7 @@
 **Интро**
 
 В данном задании реализован проект о путешествии по России.
-Страницв сверстана согласно макету [макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+Страница сверстана согласно макету [макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 Сайт адаптирован для экрана шириной от 320px до 1280px.
 
 ### Использованные технологии:
